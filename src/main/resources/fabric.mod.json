@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "id": "momentumblade",
+  "version": "${version}",
+  "name": "Momentum Blade",
+  "description": "Adds a throwing knife that deals more damage the farther it flies before hitting a target.",
+  "authors": ["MomentumBlade"],
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["com.momentumblade.MomentumBladeMod"]
+  },
+  "depends": {
+    "fabricloader": ">=0.15.11",
+    "minecraft": "~1.20.1",
+    "fabric-api": "*"
+  }
+}
